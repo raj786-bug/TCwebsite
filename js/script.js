@@ -7,3 +7,6 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbxMLJT3jyRvgpwv1ZPoKk
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
         })
+function myFunction() {
+          document.getElementById("myForm").reset();
+        }
